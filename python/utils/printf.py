@@ -22,9 +22,9 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 """
 
-global sentences;
-from __main__ import sentences;
-sentences: dict;
+global config;
+from __main__ import config;
+config: dict;
 
 def __language__() -> str:
 
@@ -47,7 +47,7 @@ def printf( data: str, arguments: list[str] = [], dont_print: bool = False, dont
 
     Returns the formatted string
 
-    ``data`` label from **__main__**'s ``sentences`` dict
+    ``data`` label from **__main__**'s ``config[ "sentences" ]`` dict
 
     ``arguments`` list of arguments to replace brackets from the string
 
@@ -58,7 +58,7 @@ def printf( data: str, arguments: list[str] = [], dont_print: bool = False, dont
 
     from colorama import Fore, Back;
 
-    __data__ = sentences[data];
+    __data__ = config[ "sentences" ][data];
 
     __string__ = __data__.get( __language__(), __data__.get( 'english', '' ) );
 

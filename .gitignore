@@ -1,5 +1,6 @@
 # User environment
 .vscode/anuscript.code-snippets
+svencoop_addon/scripts/plugins/config.json
 
 # Python
 **__pycache__**

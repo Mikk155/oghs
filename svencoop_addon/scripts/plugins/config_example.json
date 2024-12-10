@@ -1,0 +1,46 @@
+{
+    // Configuration used for the server start script
+    "SERVER":
+    {
+        // Mode for the script to run a game server
+        // 0 = 24/7, if the server shuts down we'll run it again over and over
+        // 1 = Discord bot, Server members can start the game server by a slash command
+        "mode": 0,
+
+        "mode == 0":
+        {
+            // Time (in seconds) at wich the script should check if the server has crashed
+            "check delay": 10
+        },
+        "mode == 1":
+        {
+            "TOKEN": "Your Discord Application BOT Token.",
+
+            // Your Discord's Guild ID for sync slash commands
+            "guild id": 744769532513615922,
+
+            "allowed roles list":
+            [
+                // List of roles ID (integer) that are allowed to use the slash command
+                // Leave empty for not limiting to anyone
+            ],
+
+            // Time (in seconds) a empty server is online before shutting down
+            "shutdown time": 500
+        },
+
+        // Arguments to use when running the game server
+        "arguments":
+        [
+            "-console",
+            "+maxplayers 24",
+            "+log on",
+            "+map hl_c04"
+        ]
+    },
+
+    // Messages
+    "sentences":
+    {
+    }
+}

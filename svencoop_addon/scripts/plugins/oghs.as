@@ -16,7 +16,7 @@ void PluginInit()
 {
     g_Module.ScriptInfo.SetAuthor( "Mikk | Gaftherman" );
     g_Module.ScriptInfo.SetContactInfo( "github.com/Mikk155 | github.com/Gaftherman" );
-    gpData.load( "scripts/plugins/oghs.json", false );
+    gpData.load( "scripts/plugins/config.json", false );
     initializer::PluginInit();
 }
 
@@ -25,7 +25,7 @@ void PluginExit() {
 }
 
 void MapInit() {
-    gpData.reload( "scripts/plugins/oghs.json", false );
+    gpData.reload( "scripts/plugins/config.json", false );
     initializer::MapInit();
 }
 

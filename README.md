@@ -16,23 +16,15 @@ pip install -r requirements.txt
 ```
 
 ```bat
-python 1install.py
+python install.py
 ```
 
 # Configuration
 
-<!-- -TODO cfg plugins etc. -->
+- Go to ``svencoop_addon/plugins/scripts/mikk/config_example.json``
 
-# Setup
+- Rename to ``config.json``
 
-```bat
-cd C:/Path/To/Sven Co-op/
-```
+- Open and follow the instructions there.
 
-```bat
-python 1setup.py
-```
-
-- Follow all the instructions provided by the script
-
-- close and double click ``1server_start.bat``
+- Double click ``1server_start.bat``
