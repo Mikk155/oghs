@@ -1,0 +1,26 @@
+{
+    // Should plugins reload every new map starts?
+    "reload": true,
+
+    "ChatSounds":
+    {
+        // Enable/Disable a plugin
+        "active": true,
+
+        // Folder where all \"sounds\" are located
+        "folder": "oghs/csv3/",
+
+        // Sounds
+        "sounds":
+        {
+            "restart": "restart.wav",
+            "megibio": "megibio.wav"
+        }
+    },
+
+    "AFKManager":
+    {
+        // Enable/Disable a plugin
+        "active": true
+    }
+}
