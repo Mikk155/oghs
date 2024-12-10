@@ -8,6 +8,12 @@ while not os.path.exists( destination ):
 
     destination = input( "Write the full path to your \"Sven Co-op\" folder." );
 
+    if not os.path.exists( os.path.join( destination, 'svencoop' ) ):
+
+        print( "Couldn't find \"svencoop\" folder in {}".format( destination ) );
+
+        destination = '';
+
 source = os.path.abspath( os.path.dirname(__file__) );
 
 for item in os.listdir( source ):
@@ -20,9 +26,9 @@ for item in os.listdir( source ):
 
         if os.path.exists( dest_item ):
 
-            shutil.rmtree( dest_item );
+            shutil.rmtree( dest_item, True );
 
-        shutil.copytree( source_item, dest_item );
+        shutil.copytree( source_item, dest_item, dirs_exist_ok=True );
 
     else:
 
