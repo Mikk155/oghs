@@ -2,7 +2,7 @@
 {
     "plugin"
     {
-        "name" "PlayerManagement"
-        "script" "admin/PlayerManagement"
+        "name" "hl-server-manager"
+        "script" "hl-server-manager"
     }
 }
