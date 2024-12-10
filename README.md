@@ -5,8 +5,18 @@ Sven Co-op server template
 
 ```bat
 git clone https://github.com/Mikk155/oghs oghs
+```
+
+```bat
 cd oghs
-python install.py
+```
+
+```bat
+pip install -r requirements.txt
+```
+
+```bat
+python 1install.py
 ```
 
 # Configuration
@@ -17,7 +27,10 @@ python install.py
 
 ```bat
 cd C:/Path/To/Sven Co-op/
-python 1server_start.py
+```
+
+```bat
+python 1setup.py
 ```
 
 - Follow all the instructions provided by the script

@@ -1,0 +1,92 @@
+{
+    "configuration.is.found":
+    {
+        "spanish": "{}Usar configuración actual\n{}Configurar de nuevo\nConfiguración actual:\n{}{}",
+        "english": "{}Use current configuration\n{}Configure again\nCurrent configuration:\n{}{}"
+    },
+    "configuration.is.not.found":
+    {
+        "spanish": "No se pudo encontrar una configuracion en {}\nVamos a configurar la aplicación.",
+        "english": "Can not locate configuration file at {}\nLets configure the application."
+    },
+    "configuration.skip":
+    {
+        "spanish": "{}Usar valor actual \"{}\"",
+        "english": "{}Use current value \"{}\""
+    },
+    "configuration.wrong":
+    {
+        "spanish": "{}El valor otorgado es invalido \"{}\"",
+        "english": "{}The provided value is invalid \"{}\""
+    },
+    "configuration.token":
+    {
+        "spanish": "Inserta el token de tu aplicación BOT de discord.",
+        "english": "Insert your discord's application BOT token."
+    },
+    "configuration.server":
+    {
+        "spanish": "Inserta el ID de tu servidor de discord.",
+        "english": "Insert the discord server's ID."
+    },
+    "configuration.hlds":
+    {
+        "spanish": "Inserta la ruta absoluta a hlds.exe por ejemplo: C:/Program Data/../Half-Life/hlds.exe",
+        "english": "Insert the absolute path to hlds.exe for example: C:/Program Data/../Half-Life/hlds.exe"
+    },
+    "configuration.mod":
+    {
+        "spanish": "Inserta el nombre de la carpeta de su mod, si es un servidor de half life inserte \"valve\"",
+        "english": "Insert the folder name of your mod, if this is a half life server insert \"valve\""
+    },
+    "configuration.roles":
+    {
+        "spanish": "Inserta una lista de ID de roles de discord que podrán utilizar el comando. Separa con espacios. Usa 0 para no limitar a ningun usuario. Usa -1 para solo administradores.",
+        "english": "Insert a list of discord roles's ID that would be able to use the command. Separate with spaces. Use 0 to not limit to any user. Use -1 for administrators only."
+    },
+    "configuration.arguments":
+    {
+        "spanish": "Inserta una lista de argumentos para ejecutar en el hlds.exe",
+        "english": "Insert a list of arguments to execute on the hlds.exe"
+    },
+    "configuration.shutdown":
+    {
+        "spanish": "Inserta una cantidad de tiempo en segundos en que el servidor será apagado cuando no haya jugadores por ese tiempo.\n0 - nunca apagar.",
+        "english": "Insert an amount of time in seconds in wich the server will be shut down when there are not players connected during that time.\n0 - never shut down."
+    },
+    "starting.program":
+    {
+        "spanish": "Iniciando programa con la configuracion:\n{}{}",
+        "english": "Starting program with configuration:\n{}{}"
+    },
+    "start.bot":
+    {
+        "spanish": "Bot conectado como \"{}\"",
+        "english": "Bot connected as \"{}\""
+    },
+    "command.running":
+    {
+        "spanish": "El servidor esta actualmente corriendo.",
+        "english": "The server is actually running."
+    },
+    "command.run":
+    {
+        "spanish": "Iniciando servidor.",
+        "english": "Initiating server."
+    },
+    "command.no.administrator":
+    {
+        "spanish": "Este comando ha sido configurado como solo para administradores.",
+        "english": "This command is been configured as for administrators only."
+    },
+    "command.no.roles":
+    {
+        "spanish": "Este comando ha sido configurado como solo para roles especificos.",
+        "english": "This command is been configured as for specific roles only."
+    },
+    "shutdown.server":
+    {
+        "spanish": "El servidor ha permanecido sin jugadores durante {} segundos, Apagando.",
+        "english": "The server didn't had any player since {} seconds, Shutting down."
+    }
+}

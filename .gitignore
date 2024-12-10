@@ -1,5 +1,10 @@
+# User environment
 .vscode/anuscript.code-snippets
 
+# Python
+**__pycache__**
+
+# Game assets
 platform/
 redist/
 svencoop/
