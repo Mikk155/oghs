@@ -1,4 +1,8 @@
 {
+    "files.associations":
+    {
+        "*.json": "jsonc"
+    },
     "files.exclude":
     {
         "platform/": true,
