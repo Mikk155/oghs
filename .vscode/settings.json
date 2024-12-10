@@ -5,6 +5,7 @@
     },
     "files.exclude":
     {
+        "*/__pycache__/": true,
         "platform/": true,
         "redist/": true,
         "svencoop_event_anniv/": true,
@@ -49,6 +50,7 @@
     },
     "search.exclude":
     {
+        "*/__pycache__/": true,
         "platform/": true,
         "redist/": true,
         "svencoop_event_anniv/": true,
