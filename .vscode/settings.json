@@ -8,6 +8,7 @@
         "*/__pycache__/": true,
         "platform/": true,
         "redist/": true,
+        "svencoop_downloads/": true,
         "svencoop_event_anniv/": true,
         "svencoop_event_april/": true,
         "svencoop_event_spooky/": true,
